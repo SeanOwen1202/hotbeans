@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Online Applications</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='css/apps.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!--Header-->
+         <p class="header">
+            <span class="Title">Hot Beans Web</span>
+            <br>Online Applications
+        </p>
+        <!--Navigation Bar-->
+        <div class="NavBar">
+            <ul>
+                <li><a href="index.html">Company Information</a></li>
+                <li>|</li>
+                <li><a href="Specs.html">Specifications and Requirements</a></li>
+                <li>|</li>
+                <li><a href="DevProf.html">Developer Profiles</a></li>
+            </ul>
+        </div>
+        
+        <!--Hot Beans Web Logo-->
+        <div class="logo">
+            <img src="assets/HBW_logo.png">
+        </div>
+        
+        <!--Questions-->
+        <div class='app'>
+        <form action="#" method="post">
+        <ul class="questions">
+            <li class="q1">
+                <label for="name">Name:</label>
+                <input type="text" id="username">
+            </li>
+            <li class="q2">
+                <label for="email">E-mail:</label>
+                <input type="email" id="Email">
+            </li>
+            <li class="q3">
+               <label for="msg">Previous Experience:</label>
+               <textarea id="msg" name="user_mail"></textarea>
+            </li>
+        </ul>
+        </form>
+                
+            <button onclick="Submit()" class='subBut'>Submit</button>
+            <script>     
+        function Submit(){
+            alert("Submitted!");
+            document.getElementById(
+             'username').value = '';
+            document.getElementById(
+             'Email').value = '';
+            document.getElementById(
+             'msg').value = '';
+        }
+        </script> 
+    </div>
+            
+         
+       
+        
+        <!--picture-->
+        <div class="AppPic">
+            <img src="assets/OnlineApp.jpg" width="300" height="300">
+        </div>
+        
+        <!--footer-->
+        <div class="footer">
+            If you wish to contact us about any enquiries please email us at HotBeansWeb@gmail.com, or follow us on social media at HotBeansWeb on all platforms
+        </div>
+    </body>
+</html>
