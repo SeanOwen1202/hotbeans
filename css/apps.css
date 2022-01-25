@@ -1,0 +1,125 @@
+/*General*/
+html
+{   
+max-height:560px;
+max-width:980px;
+}
+body{
+    background-color:white;
+    color:lightblue;
+}
+p{
+    background: rgba(0,0,0,0.7);
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif, arial;
+    border: 5px #666 solid;
+    
+}
+span{
+    
+}
+.Title{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif, arial;
+    font-style: oblique;
+}
+
+div{
+   font-family: sans-serif, arial;
+}
+.NavBar a:hover{
+    color:#999;
+    background-color:#000;
+    height: 50px;
+    width:980px;
+    font-size: 25px;
+}
+.NavBar{
+    font-size: 25px;
+}
+
+.logo{
+    position: relative;
+    top:-280px;
+    left:-50px;
+    z-index:-1;
+}
+
+.footer{
+    width:980px;
+    height:30px;
+    font-size: 14px;
+    font-family: sans-serif, arial;
+    position:relative;
+    top:-500px;
+    background: rgba(0,0,0,0.7);
+    border: 5px #666 solid;
+}
+
+li{
+    display:inline;
+}
+
+ul{
+    background: rgba(0,0,0,0.7);
+    color:lightblue;
+    border: 5px #666 solid;
+}
+
+a{
+    color:lightblue;
+}
+/*page specific*/
+.app{
+    position:relative;
+    height:300px;
+    width:600px;
+    font-size:20px;
+}
+.q1{
+    height: 50px;
+    width:500px;
+    position: relative;
+    top:-250px;
+}
+.q2{
+    height: 50px;
+    width:500px;
+    position: relative;
+    top:-200px;
+    left:-248px;
+}
+.q3{
+    height: 50px;
+    width:500px;
+    position: relative;
+    top:-180px;
+    left:0px;
+}
+
+.AppPic{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top:-550px;
+    left:650px;
+}
+
+.subBut{
+    height: 50px;
+    width:250px;
+    position:relative;
+    top:-175px;    
+    left:100px;
+}
+.questions{
+background:white;
+border:none;
+color:black;
+}
+textarea{
+    max-width: 600px;
+    max-height:140px;
+}
